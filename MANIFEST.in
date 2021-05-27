@@ -1,0 +1,18 @@
+include MANIFEST.in
+include requirements.txt
+include *.json
+include *.md
+include *.py
+include *.txt
+recursive-include time_management *.css
+recursive-include time_management *.csv
+recursive-include time_management *.html
+recursive-include time_management *.ico
+recursive-include time_management *.js
+recursive-include time_management *.json
+recursive-include time_management *.md
+recursive-include time_management *.png
+recursive-include time_management *.py
+recursive-include time_management *.svg
+recursive-include time_management *.txt
+recursive-exclude time_management *.pyc
